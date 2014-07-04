@@ -29,6 +29,7 @@
 		A72AA87A1966694300D3A114 /* RemoveAdsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A72AA8791966694300D3A114 /* RemoveAdsViewController.m */; };
 		A72AA87D1966697400D3A114 /* StatsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A72AA87C1966697400D3A114 /* StatsViewController.m */; };
 		A72AA8801966698500D3A114 /* StatsModel.m in Sources */ = {isa = PBXBuildFile; fileRef = A72AA87F1966698500D3A114 /* StatsModel.m */; };
+		A72AA8831966727D00D3A114 /* MenuItem.m in Sources */ = {isa = PBXBuildFile; fileRef = A72AA8821966727D00D3A114 /* MenuItem.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -77,6 +78,8 @@
 		A72AA87C1966697400D3A114 /* StatsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = StatsViewController.m; path = Stats/StatsViewController.m; sourceTree = "<group>"; };
 		A72AA87E1966698500D3A114 /* StatsModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = StatsModel.h; path = Stats/StatsModel.h; sourceTree = "<group>"; };
 		A72AA87F1966698500D3A114 /* StatsModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = StatsModel.m; path = Stats/StatsModel.m; sourceTree = "<group>"; };
+		A72AA8811966727D00D3A114 /* MenuItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MenuItem.h; path = Menu/MenuItem.h; sourceTree = "<group>"; };
+		A72AA8821966727D00D3A114 /* MenuItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MenuItem.m; path = Menu/MenuItem.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -224,6 +227,8 @@
 				A72AA86E196668A900D3A114 /* MenuViewController.m */,
 				A72AA870196668CE00D3A114 /* MenuModel.h */,
 				A72AA871196668CE00D3A114 /* MenuModel.m */,
+				A72AA8811966727D00D3A114 /* MenuItem.h */,
+				A72AA8821966727D00D3A114 /* MenuItem.m */,
 			);
 			name = Menu;
 			sourceTree = "<group>";
@@ -354,6 +359,7 @@
 				A72AA87D1966697400D3A114 /* StatsViewController.m in Sources */,
 				A72AA83619665F0E00D3A114 /* main.m in Sources */,
 				A72AA8801966698500D3A114 /* StatsModel.m in Sources */,
+				A72AA8831966727D00D3A114 /* MenuItem.m in Sources */,
 				A72AA8691966684E00D3A114 /* QuestionViewController.m in Sources */,
 				A72AA866196667EA00D3A114 /* SWRevealViewController.m in Sources */,
 			);
